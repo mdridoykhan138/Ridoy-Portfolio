@@ -67,7 +67,7 @@ const data = [
     title: "Allen Multipurpos SAAS",
   },
   {
-    href: "",
+    href: "https://ridoykhan-portfolio.vercel.app/",
     category: "nextjs",
     img: "/assets/work/thumb-9.png",
     title: "Ridoy Portfolio",

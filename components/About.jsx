@@ -58,7 +58,7 @@ const About = () => {
             </div>
             <p className="max-w-[680px] mx-auto xl:mx-0 mb-2">I create visually stunning and functional website using modern frontend technologies with react and next js. Explore my work to see how i combine creativity with technical skill to deliver exception digital expperiences.</p>
             {/* info items */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-max mx-auto xl:mx-0 items-center place-items-center  md:place-items-stretch">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-max mx-auto xl:mx-0 items-center xl:place-items-stretch place-items-center">
               {/* item 1 */}
               <div className="max-w-max">
                 <div className="uppercase font-bold text-primary">Age</div>

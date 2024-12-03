@@ -19,7 +19,7 @@ const slides = [
     {
         img: "/assets/testimonial/img-1.png",
         name: "Ema Johnson",
-        message: "The service was fantastic! Highly recommend it to anyone looking for top Notch design."
+        message: "The service was fantastic! Highly recommend to anyone looking for top design."
     },
     {
         img: "/assets/testimonial/img-2.png",
@@ -71,10 +71,10 @@ const Testimonial = () => {
                 />
                 <div className="flex flex-col lg:flex-row gap-12">
                     {/* slider info */}
-                    <div className="w-max xl:w-[600px] flex flex-col justify-center items-center xl:items-start text-center xl:text-left mx-auto xl:mx-0">
+                    <div className="w-max xl:w-[600px] flex flex-col justify-center items-center xl:items-start text-center xl:text-left mx-auto xl:mx-0 overflow-hidden">
                         <ImQuotesLeft className="text-9xl text-accent/20 leading-none mb-4"/>
                         <h3 className="h3 mb-2">{slides[activeSlide].name}</h3>
-                        <p className="mb-8 max-w-[360px]">{slides[activeSlide].message}</p>
+                        <p className="mb-8 md:max-w-[360px] max-w-[230px]">{slides[activeSlide].message}</p>
                         {/* slider buttons */}
                         <div className="flex gap-3">
                             <button onClick={handlePrevious} className="text-2xl bg-accent w-[40px] h-[40px] text-white rounded-full flex items-center justify-center hover:bg-accent-hover transition-all duration-300">

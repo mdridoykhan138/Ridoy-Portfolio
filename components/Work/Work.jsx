@@ -109,7 +109,7 @@ const Work = () => {
           <div className="flex flex-col xl:flex-row items-center xl:items-start xl:justify-between mb-[30px]">
             <AnimatedText
               text="My Latest Work"
-              textStyles="h2 mb-[30px] xl:mb-0"
+              textStyles="h2 mb-[30px] xl:mb-0 text-center"
             />
             {/* render tab triggers */}
             <TabsList className="max-w-max h-full mb-[30px] flex flex-col md:flex-row gap-4 md:gap-0">

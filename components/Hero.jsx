@@ -7,6 +7,7 @@ import RotatingShape from "./RotatingShape";
 // header components import here
 import Header from "./Header";
 import Stats from "./Stats/Stats";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -29,9 +30,13 @@ const Hero = () => {
               />
             </h1>
             <p className="lead max-w-[476px] mb-7">Delivering powerful, custom website that blend aesthetics with performance</p>
-            <ScrollLink to="contact" smooth>
-              <button className="btn btn-accent mb-8 capitalize">contact me</button>
-            </ScrollLink>
+            <div className="flex flex-col md:flex-row gap-5 mb-8">
+              <ScrollLink to="contact" smooth>
+                <button className="btn btn-accent capitalize">contact me</button>
+              </ScrollLink>
+              <Link href="/assets/cv/Md-Ridoy-Khan.pdf" target="_blank" alt="Md-Ridoy-Khan-Resume" rel="noopener notrferrer">
+              <button className="btn btn-accent capitalize">Download Resume</button></Link>
+            </div>
             {/* stats */}
             <Stats/>
           </div>

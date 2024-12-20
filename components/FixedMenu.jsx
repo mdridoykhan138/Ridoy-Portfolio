@@ -41,7 +41,7 @@ const FixedMenu = () => {
   if (!isMounted) return null;
 
   return (
-    <div className="fixed w-full h-[400px] z-50 flex justify-center pointer-events-none bg-transparent">
+    <div className="fixed w-full h-[400px] z-50 bottom-[4rem] flex justify-center pointer-events-none bg-transparent">
       {/* menu */}
       <AnimatePresence>
         {showMenu && showMenuButton && (
@@ -50,7 +50,7 @@ const FixedMenu = () => {
             animate={{ opacity: 1, y: 0 }} 
             exit={{ opacity: 0, y: 20 }}
             transition={{ duration: 0.2 }}
-            className="relative w-full max-w-md md:max-w-none h-[400px] bottom-[28rem] xl:botttom-[21.2rem] px-4 pointer-events-auto"
+            className="relative w-full max-w-md md:max-w-none h-[400px] bottom-[4rem] px-4 pointer-events-auto"
           >
           <div className="bg-white w-full h-full shadow-custom max-w-[1170px] mx-auto py-12 xl:py-12 px-12 xl:px-32 flex items-center gap-12">
             {/* navber menu */}

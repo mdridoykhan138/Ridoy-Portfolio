@@ -72,6 +72,12 @@ const data = [
     img: "/assets/work/thumb-9.png",
     title: "Ridoy Portfolio",
   },
+  {
+    href: "https://ridoy-raiha-travel-trek.vercel.app/",
+    category: "html",
+    img: "/assets/work/thumb-10.png",
+    title: "Raiha Travel Trek",
+  },
 ];
 
 const Work = () => {

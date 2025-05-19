@@ -8,10 +8,18 @@ const journey = [
     // experience
     {
         type: "experience",
+        company: "Star Connect",
+        logoUrl: "/assets/journey/experience/logo-2.svg",
+        position: "Front End Developer",
+        duration: "06 April 2025 - Present",
+        description: "Working on an innovative social media platform using React and Next.js. The platform connects users with verified experts through messaging, video responses, and group calls. Developed responsive user interfaces and key features like the Star Wish module for personalized video messages. Focused on performance optimization, seamless UX, and scalable front-end architecture."
+    },
+    {
+        type: "experience",
         company: "Pixency",
         logoUrl: "/assets/journey/experience/logo-1.svg",
-        position: "Frontend Developer",
-        duration: "01 January 2022 - Present",
+        position: "Front End Developer",
+        duration: "01 Jan 2022 - 31 Mar 2025",
         description: "I am working on Themeforest and have approved the HTML5 Template in Themeforest. Built website using HTML5, NextJS, CSS, Tailwind CSS, Bootstrap, Wordpress Elementor. worked on scalable, useer friendly solutions. Develop web interfaces with cross-browser compatibility and responsiveness delivered pixel-perfect designs."
     },
     {
@@ -103,7 +111,7 @@ const Cards = () => {
   return (
     <>
         <Tabs defaultValue="experience" className="w-full flex flex-col items-center">
-            <TabsList className="max-w-max mb-[30px]">
+            <TabsList className="max-w-max mb-[10px]">
                 <TabsTrigger value="experience">Experience</TabsTrigger>
                 <TabsTrigger value="education">Education</TabsTrigger>
                 <TabsTrigger value="skills">My skills</TabsTrigger>
